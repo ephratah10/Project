@@ -1,4 +1,24 @@
-*{
+/* Responsive styles */
+@media only screen and (min-width: 768px) {
+    /* Adjustments for tablets and larger screens */
+    .container {
+        padding: 50px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Adjustments for laptops and larger screens */
+    .container {
+        padding: 100px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Adjustments for large desktops */
+    .container {
+        padding: 150px;
+    }
+}*{
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
